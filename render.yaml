@@ -14,4 +14,4 @@ services:
         fromSecret: turso_auth_token
       - key: TELEGRAM_BOT_TOKEN
         fromSecret: telegram_bot_token
-    autoDeploy: false
+    autoDeploy: true
